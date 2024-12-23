@@ -22,6 +22,11 @@ export const SidebarData = [
         icon: <GroupsIcon />,
       },
       {
+        path: "/payment",
+        title: "Payment",
+        icon: <GroupsIcon />,
+      },
+      {
         title: "Store",
         icon: <StoreIcon />,
         submenus: [

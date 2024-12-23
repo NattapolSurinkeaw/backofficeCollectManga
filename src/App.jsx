@@ -9,6 +9,7 @@ import Topbar from "./layouts/Topbar";
 import Sidebar from "./layouts/Sidebar";
 import Dashboard from "./pages/dashboard/Dashboard";
 import Members from "./pages/members/Members";
+import Payments from "./pages/payments/Payments";
 import Categories from "./pages/store/categories/Categories";
 import Products from "./pages/store/Products";
 import Orders from "./pages/orders/Orders";
@@ -36,6 +37,7 @@ function App() {
               <Route path="/" element={<Dashboard />} />
               <Route path="/dashboard" element={<Dashboard />} />
               <Route path="/members" element={<Members />} />
+              <Route path="/payment" element={<Payments />} />
               <Route path="/store/categories" element={<Categories />} />
               <Route path="/store/products" element={<Products />} />
               <Route path="/orders" element={<Orders />} />
